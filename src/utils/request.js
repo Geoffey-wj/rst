@@ -1,14 +1,14 @@
 import axios from 'axios'
 // import { Dialog } from 'vant';
 
-axios.defaults.baseURL = 'https://isdapp.shandong.gov.cn';
+// axios.defaults.baseURL = 'https://isdapp.shandong.gov.cn';
 axios.defaults.headers.post['content-type'] = 'application/x-www-form-urlencoded; charset=UTF-8'
 axios.defaults.headers.post['Accept'] = '*/*'
 axios.defaults.headers.post['Origin'] = null
 
 const service = axios.create({
     timeout: 10000, // 超过7秒提示超时
-    baseUrl: "https://isdapp.shandong.gov.cn"
+    // baseUrl: "https://isdapp.shandong.gov.cn"
 })
 
 // 请求拦截器
